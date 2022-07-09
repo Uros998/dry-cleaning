@@ -78,9 +78,10 @@
 
   .homepage-services {
     width: 100%;
-    height: 500px;
+    height: 100%;
     background-color: #eaeaea;
     padding: 3em 0;
+    margin: 0 0 10em 0; // Obrisati ovo !!!!!!!!!!!!!!!!!!!!!!!!!!
 
     .services-title {
       h2 {
@@ -100,6 +101,7 @@
 
       .service-card {
         width: 25%;
+        margin: 0 3em;
 
         .card-title {
           h2 {
@@ -109,9 +111,14 @@
         }
 
         .card-body {
+          padding: 1em;
 
+          p {
+            font-size: 17px;
+            font-weight: 300;
+            line-height: 30px;
+          }
         }
-
       }
     }
   }
@@ -137,7 +144,13 @@
 }
 
 @media screen and (max-width: 1350px) {
-
+  .homepage {
+    .homepage-services {
+      .services-cards {
+        width: 100%;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 1050px) {
@@ -163,8 +176,38 @@
         }
       }
     }
+
+    .homepage-services {
+      .services-cards {
+        width: 100%;
+
+        .service-card {
+          width: 30%;
+          margin: 0 1em;
+
+
+          .card-title {
+            h2 {
+              font-size: 15px;
+              font-weight: 600;
+            }
+          }
+
+          .card-body {
+            padding: 1em;
+
+            p {
+              font-size: 17px;
+              font-weight: 300;
+              line-height: 30px;
+            }
+          }
+        }
+      }
+    }
   }
 }
+
 
 @media screen and (max-width: 900px) {
   .homepage {
@@ -196,6 +239,42 @@
         }
       }
     }
+
+    .homepage-services {
+      height: 100%;
+
+      .services-title {
+        h2 {
+          font-size: 30px;
+        }
+      }
+
+      .services-cards {
+        width: 100%;
+        display: block;
+
+        .service-card {
+          width: 90%;
+          margin: 2em auto;
+
+
+          .card-title {
+            h2 {
+              font-size: 18px;
+            }
+          }
+
+          .card-body {
+            p {
+              font-size: 20px;
+              text-align: justify;
+              line-height: 32px;
+            }
+          }
+        }
+      }
+    }
+
   }
 }
 

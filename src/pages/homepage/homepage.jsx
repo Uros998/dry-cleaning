@@ -49,10 +49,10 @@ const HomePage = () => {
                             </div>
                             <div className="card-title">
                                 <h2>ČIŠĆENJE I PEGLANJE</h2>
-
                             </div>
                             <div className="card-body">
-
+                                <p>Stručan pristup i analiza o tretiranju svakog odevnog predmeta odlikuje našu
+                                    profesionalnost.</p>
                             </div>
                         </div>
                         <div className="service-card">
@@ -63,7 +63,8 @@ const HomePage = () => {
                                 <h2>EKSPRESNO I KVALITETNO</h2>
                             </div>
                             <div className="card-body">
-
+                                <p>Svaki artikal je najboljom metodom i na najbrži mogući način spremna za ponovnu
+                                    upotrebu.</p>
                             </div>
                         </div>
                         <div className="service-card">
@@ -74,7 +75,7 @@ const HomePage = () => {
                                 <h2>DOSTAVA NA ADRESU</h2>
                             </div>
                             <div className="card-body">
-
+                                <p>Poštujemo Vaše vreme i u najkraćem roku Vam možemo dostaviti Vašu čistu tkaninu.</p>
                             </div>
                         </div>
                     </div>
