@@ -38,7 +38,7 @@ const Header = () => {
                 <nav className="main-navigation">
                     <ul>
                         <li><NavLink activeClassName="selected" className='option' to='/'>Početna</NavLink></li>
-                        <li><NavLink activeClassName="selected" className='option' to='/usluga'>Usluge</NavLink></li>
+                        <li><NavLink activeClassName="selected" className='option' to='/usluga'>Cenovnik</NavLink></li>
                         <li><NavLink activeClassName="selected" className='option' to='/about'>O nama</NavLink></li>
                     </ul>
                 </nav>

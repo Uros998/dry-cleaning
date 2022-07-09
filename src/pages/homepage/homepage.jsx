@@ -80,6 +80,63 @@ const HomePage = () => {
                         </div>
                     </div>
                 </div>
+                <div className="homepage-our-services">
+                    <div className="our-service-title">
+                        <h2>Naše usluge</h2>
+                    </div>
+                    <div className="our-services">
+                        <div className="two-services">
+                            <div className="service">
+                                <div className="service-title">
+                                    <h2><span>#01 /</span> Hemijsko čišćenje</h2>
+                                </div>
+                                <div className="service-body">
+                                    <p>Možete poveriti Vaše omiljene stvari Etilen perionici jer tretiramo osetljivu
+                                        tkaninu koja se ne sme prati u vodi sa najboljim sredstvima kako se ne bi
+                                        uništila i
+                                        vraćamo joj sjaj i svežinu. Pored odeće nudimo i usluge pranja venčanica, odela,
+                                        kože, satena, svile…</p>
+                                </div>
+                            </div>
+                            <div className="service">
+                                <div className="service-title">
+                                    <h2><span>#02 /</span> Pranje i peglanje</h2>
+                                </div>
+                                <div className="service-body">
+                                    <p>Pranje i peglanje košulja nekada ume da bude prava gnjavaža. Zato mi pružamo
+                                        vrhunsku
+                                        uslugu pranja i peglanja košulja kako bi ste uvek mogli da izgledate uredno.
+                                        Takođe
+                                        pored košulja nudeimo pranje i peglenje bilo kog veša.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="two-services">
+                            <div className="service">
+                                <div className="service-title ">
+                                    <h2><span>#03 /</span> Bojenje kože</h2>
+                                </div>
+                                <div className="service-body">
+                                    <p>Bojenje kože, uz usluge pranja ili hemijskog čišćenja imamo mogućnost,
+                                        tehnologiju i znanje da najsavremenijim metodama i najboljim sredstvima vršimo
+                                        usluge bojenja kože. Tako vašoj odeći produžujemo vek trajanja,
+                                        postojeću boju osvežavamo i dajemo joj novi život.</p>
+                                </div>
+                            </div>
+                            <div className="service">
+                                <div className="service-title">
+                                    <h2><span>#04 /</span> Čišćenje cipela</h2>
+                                </div>
+                                <div className="service-body">
+                                    <p>Etilen u ponudi ima i mogućnost krojačkih prepravki. Svojim savetima i
+                                        dugogodišnjim iskustvom možemo Vam pomoći i dati savet u vezi svih vrsta
+                                        krojačkih
+                                        prepravki, krojačkih dorada.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </>
     )
