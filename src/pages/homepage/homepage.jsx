@@ -1,8 +1,16 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./homepage.styles.scss";
 import Header from "../../component/header/header.component";
+import Icon1 from "../../assets/icon1v2.png";
+import Icon2 from "../../assets/icon2.png";
+import Icon3 from "../../assets/icon3.png";
+
 
 const HomePage = () => {
+
+    useEffect(() => {
+        window.scrollTo({top: 0});
+    }, [])
 
     return (
         <>
@@ -32,10 +40,43 @@ const HomePage = () => {
                 </div>
                 <div className="homepage-services">
                     <div className="services-title">
-
+                        <h2>Naše Dodatne Prednosti</h2>
                     </div>
-                    <div className="services-text">
+                    <div className="services-cards">
+                        <div className="service-card">
+                            <div className="card-img">
+                                <img src={Icon1} alt=""/>
+                            </div>
+                            <div className="card-title">
+                                <h2>ČIŠĆENJE I PEGLANJE</h2>
 
+                            </div>
+                            <div className="card-body">
+
+                            </div>
+                        </div>
+                        <div className="service-card">
+                            <div className="card-img">
+                                <img src={Icon2} alt=""/>
+                            </div>
+                            <div className="card-title">
+                                <h2>EKSPRESNO I KVALITETNO</h2>
+                            </div>
+                            <div className="card-body">
+
+                            </div>
+                        </div>
+                        <div className="service-card">
+                            <div className="card-img">
+                                <img src={Icon3} alt=""/>
+                            </div>
+                            <div className="card-title">
+                                <h2>DOSTAVA NA ADRESU</h2>
+                            </div>
+                            <div className="card-body">
+
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
