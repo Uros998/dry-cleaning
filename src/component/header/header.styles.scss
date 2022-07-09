@@ -29,12 +29,41 @@ body {
   width: 100%;
   background: rgba(0, 0, 0, 0.7);
   position: fixed;
+  animation: auto;
+  transition: 3s;
+
+  .icon--menu {
+    animation: auto;
+    transition: 3s;
+    stroke: #0186d5;
+  }
+
+  .logo {
+    animation: auto;
+    transition: 3s;
+    color: #0186d5;
+  }
+
+
+
 }
 
 .nav-none {
   width: 100%;
   background: rgba(0, 0, 0, 0);
   position: fixed;
+  animation: auto;
+  transition: 3s;
+
+  .icon--menu {
+    animation: auto;
+    transition: 3s;
+  }
+
+  .logo {
+    animation: auto;
+    transition: 3s;
+  }
 }
 
 
