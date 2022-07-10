@@ -4,6 +4,8 @@ import Header from "../../component/header/header.component";
 import Icon1 from "../../assets/icon1v2.png";
 import Icon2 from "../../assets/icon2.png";
 import Icon3 from "../../assets/icon3.png";
+import AdvantagesImg from "../../assets/contact.jpg";
+import Footer from "../../component/footer/footer.component";
 
 
 const HomePage = () => {
@@ -137,6 +139,35 @@ const HomePage = () => {
                         </div>
                     </div>
                 </div>
+                <div className="our-advantages">
+                    <div className="advantages-img">
+                        <img src={AdvantagesImg} alt=""/>
+                    </div>
+                    <div className="advantages-title-text">
+                        <div className="adventages-title">
+                            <p>Profesionalizam i kvalitet</p>
+                            <h2>Najbolje hemijsko čišćenje u Nišu</h2>
+                        </div>
+                        <div className="adventages-text">
+                            <p>Zadovoljstvo nam je da Vam pomognemo i pružimo rešenje za svaki Vaš zahtev. Naš stručan
+                                tim teži ka stalnom usavršavanju naših usluga i to nas dovodi do sjajnih rezultata.</p>
+                            <div className="adventages">
+                                <div className="adventages-left">
+                                    <h4><span> > </span>Garantujemo kvalitet</h4>
+                                    <h4><span> > </span>Najviši standardi usluga</h4>
+                                    <h4><span> > </span>Najkvalitetnija oprema</h4>
+                                </div>
+                                <div className="adventages-right">
+                                    <h4><span> > </span>Napredna tehnologija</h4>
+                                    <h4><span> > </span>Pristupačne cene</h4>
+                                    <h4><span> > </span>Štitimo životnu sredinu</h4>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <Footer />
             </div>
         </>
     )
