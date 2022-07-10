@@ -290,6 +290,18 @@
         }
       }
     }
+
+    .our-advantages {
+      .advantages-title-text {
+        padding: 1em 2em;
+
+        .adventages-text {
+          .adventages {
+            margin: 2em auto;
+          }
+        }
+      }
+    }
   }
 }
 
@@ -318,6 +330,42 @@
                 font-size: 20px;
               }
             }
+          }
+        }
+      }
+    }
+
+    .our-advantages {
+      .advantages-title-text {
+        padding: 1em 2em;
+
+        .adventages-title {
+          p {
+            font-size: 11px;
+          }
+        }
+
+        .adventages-text {
+
+          p {
+            font-size: 14px;
+          }
+
+          .adventages {
+            margin: 0 auto;
+
+            .adventages-left {
+              h4 {
+                font-size: 15px;
+              }
+            }
+
+            .adventages-right {
+              h4 {
+                font-size: 15px;
+              }
+            }
+
           }
         }
       }
@@ -377,6 +425,84 @@
         }
       }
     }
+
+    .our-advantages {
+      height: 1350px;
+
+      .advantages-img {
+        display: block;
+        width: 100%;
+      }
+
+      .advantages-title-text {
+        display: block;
+        width: 100%;
+        padding: 4em 5em;
+
+
+        .adventages-title {
+
+          p {
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: 2px;
+            margin: 0;
+          }
+
+          h2 {
+            font-size: 25px;
+            font-weight: 300;
+            margin: 0.5em 0;
+
+          }
+        }
+
+
+        .adventages-text {
+
+          p {
+            font-size: 15px;
+            line-height: 28px;
+          }
+
+          .adventages {
+            margin: 4em auto;
+
+            .adventages-left {
+              display: inline-block;
+              width: 50%;
+
+              h4 {
+                font-size: 20px;
+                font-weight: 400;
+                letter-spacing: 1px;
+
+                span {
+                  color: #0186d5;
+                  font-weight: 600;
+                }
+              }
+            }
+
+            .adventages-right {
+              display: inline-block;
+              width: 50%;
+
+              h4 {
+                font-size: 20px;
+                font-weight: 400;
+                letter-spacing: 1px;
+
+                span {
+                  color: #0186d5;
+                  font-weight: 600;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
 
@@ -391,7 +517,55 @@
       }
     }
 
+    .our-advantages {
+      height: 1150px;
 
+      .advantages-title-text {
+        .adventages-text {
+
+          p {
+            font-size: 15px;
+            line-height: 28px;
+          }
+
+          .adventages {
+            margin: 4em auto;
+
+            .adventages-left {
+              display: inline-block;
+              width: 50%;
+
+              h4 {
+                font-size: 18px;
+                font-weight: 400;
+                letter-spacing: 1px;
+
+                span {
+                  color: #0186d5;
+                  font-weight: 600;
+                }
+              }
+            }
+
+            .adventages-right {
+              display: inline-block;
+              width: 50%;
+
+              h4 {
+                font-size: 18px;
+                font-weight: 400;
+                letter-spacing: 1px;
+
+                span {
+                  color: #0186d5;
+                  font-weight: 600;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
 
@@ -479,6 +653,60 @@
         }
       }
     }
+
+    .our-advantages {
+      height: 1150px;
+
+      .advantages-title-text {
+        padding: 4em 2em;
+
+        .adventages-text {
+
+          p {
+            font-size: 15px;
+            line-height: 28px;
+          }
+
+          .adventages {
+            margin: 4em auto;
+
+            .adventages-left {
+              display: block;
+              width: 100%;
+              margin: 0 auto;
+
+              h4 {
+                font-size: 18px;
+                font-weight: 400;
+                letter-spacing: 1px;
+
+                span {
+                  color: #0186d5;
+                  font-weight: 600;
+                }
+              }
+            }
+
+            .adventages-right {
+              display: block;
+              width: 100%;
+              margin: 0 auto;
+
+              h4 {
+                font-size: 18px;
+                font-weight: 400;
+                letter-spacing: 1px;
+
+                span {
+                  color: #0186d5;
+                  font-weight: 600;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
 
@@ -524,6 +752,57 @@
             .service-body {
               p {
                 line-height: 25px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .our-advantages {
+      .advantages-title-text {
+        .adventages-text {
+
+          p {
+            text-align: justify;
+            font-size: 15px;
+            line-height: 28px;
+          }
+
+          .adventages {
+            margin: 4em auto;
+
+            .adventages-left {
+              display: block;
+              width: 100%;
+              margin: 0 auto;
+
+              h4 {
+                font-size: 18px;
+                font-weight: 400;
+                letter-spacing: 1px;
+
+                span {
+                  color: #0186d5;
+                  font-weight: 600;
+                }
+              }
+            }
+
+            .adventages-right {
+              display: block;
+              width: 100%;
+              margin: 0 auto;
+
+              h4 {
+                font-size: 18px;
+                font-weight: 400;
+                letter-spacing: 1px;
+
+                span {
+                  color: #0186d5;
+                  font-weight: 600;
+                }
               }
             }
           }
