@@ -22,7 +22,7 @@ const HomePage = () => {
                     <div className="homepage-title">
                         <h2>ETILEN</h2>
                         <p>Hemijsko Čišćenje</p>
-                    </div>
+                     </div>
                 </div>
                 <div className="homepage-about">
                     <div className="about-text">
