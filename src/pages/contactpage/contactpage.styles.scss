@@ -82,6 +82,13 @@
         }
       }
     }
+
+    .contact-maps {
+      iframe {
+        width: 100%;
+        height: 650px;
+      }
+    }
   }
 }
 
@@ -127,7 +134,7 @@
   .contactpage {
     .contact-img {
       background-position: center;
-   }
+    }
 
     .contact-info {
       .contact-title {
