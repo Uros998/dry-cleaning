@@ -23,7 +23,7 @@
 
     .contact-cards {
       width: 80%;
-      margin: 1em auto;
+      margin: 5em auto;
       display: flex;
       justify-content: center;
 
@@ -33,17 +33,162 @@
         text-align: center;
         box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
 
-        .contact-card-title {
-          h2 {
 
+        .contact-card-icon {
+          text-align: center;
+          width: 35%;
+          margin: -50px auto;
+          padding: 1em;
+
+          img {
+            width: 40%;
+            animation: auto;
+            transition: 1s;
+          }
+
+          img:hover {
+            width: 45%;
+            animation: auto;
+            transition: 1s;
           }
         }
-        .contact-card-body {
-          p {
 
+        .card-title-body {
+          width: 100%;
+          height: 100%;
+          padding: 2em 0;
+
+          .contact-card-title {
+            h2 {
+              font-size: 25px;
+              font-weight: 600;
+            }
+          }
+
+          .contact-card-body {
+            p {
+              font-size: 20px;
+              letter-spacing: 2px;
+              font-weight: 400;
+
+              span {
+                color: #0186d5;
+                font-weight: 600;
+                letter-spacing: 0;
+              }
+
+            }
           }
         }
       }
     }
   }
 }
+
+@media screen and (max-width: 1600px) {
+  .contactpage {
+    .contact-info {
+      .contact-cards {
+        width: 90%;
+
+        .contact-card {
+          width: 50%;
+          margin: 1em;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .contactpage {
+
+
+    .contact-info {
+
+      .contact-cards {
+        width: 90%;
+
+        .contact-card {
+          width: 50%;
+          margin: 1em;
+
+          .contact-card-icon {
+            width: 45%;
+            margin: -45px auto;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .contactpage {
+    .contact-img {
+      background-position: center;
+   }
+
+    .contact-info {
+      .contact-title {
+        h2 {
+          font-size: 60px;
+
+        }
+      }
+
+      .contact-cards {
+        width: 90%;
+        margin: 5em auto;
+        display: block;
+
+        .contact-card {
+          width: 100%;
+          margin: 5em auto;
+
+
+          .contact-card-icon {
+            text-align: center;
+            width: 40%;
+            margin: -50px auto;
+            padding: 1em;
+
+            img {
+              width: 40%;
+              animation: auto;
+              transition: 1s;
+            }
+
+            img:hover {
+              width: 45%;
+              animation: auto;
+              transition: 1s;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .contactpage {
+    .contact-info {
+      .contact-cards {
+        .contact-card {
+          .contact-card-icon {
+            img {
+              width: 55%;
+            }
+
+            img:hover {
+              width: 60%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
