@@ -22,7 +22,7 @@ const HomePage = () => {
                     <div className="homepage-title">
                         <h2>ETILEN</h2>
                         <p>Hemijsko Čišćenje</p>
-                     </div>
+                    </div>
                 </div>
                 <div className="homepage-about">
                     <div className="about-text">
@@ -130,10 +130,13 @@ const HomePage = () => {
                                     <h2><span>#04 /</span> Čišćenje cipela</h2>
                                 </div>
                                 <div className="service-body">
-                                    <p>Etilen u ponudi ima i mogućnost krojačkih prepravki. Svojim savetima i
-                                        dugogodišnjim iskustvom možemo Vam pomoći i dati savet u vezi svih vrsta
-                                        krojačkih
-                                        prepravki, krojačkih dorada.</p>
+                                    <p>Sećate li se kako su Vaše UGG čizme ili Nike patike izgledale kad ste ih tek
+                                        kupili? Nek tako izgledaju ponovo! Znamo koliku vrednost ima Vaša omiljena obuća
+                                        za Vas, zato ne dozvolite da ikada ne bude čista! Po najnovijoj tehnologiji
+                                        čistimo Vaše UGG, Mou i druge kožne cizme, kao i Nike, Balenciaga i sve ostale
+                                        Vaše omiljene patike! Odelo možda ne čini coveka, ali Vaša obuća svakako puno
+                                        govori o Vama!
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -167,7 +170,7 @@ const HomePage = () => {
                         </div>
                     </div>
                 </div>
-                <Footer />
+                <Footer/>
             </div>
         </>
     )

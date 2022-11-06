@@ -147,6 +147,7 @@
         .service {
           padding: 0 2em;
 
+
           .service-title {
 
             h2 {
@@ -177,10 +178,10 @@
 
   .our-advantages {
     width: 100%;
+    display: flex;
     background-color: #eaeaea;
 
     .advantages-img {
-      display: inline-block;
       width: 50%;
 
       img {
@@ -189,10 +190,8 @@
     }
 
     .advantages-title-text {
-      display: inline-block;
-      position: absolute;
-      width: 50%;
-      padding: 4em 5em;
+      width: 40%;
+      padding: 3em 5em;
 
 
       .adventages-title {
@@ -428,15 +427,14 @@
 
     .our-advantages {
       height: 1350px;
+      flex-direction: column;
 
       .advantages-img {
-        display: block;
         width: 100%;
       }
 
       .advantages-title-text {
-        display: block;
-        width: 100%;
+        width: 80%;
         padding: 4em 5em;
 
 
